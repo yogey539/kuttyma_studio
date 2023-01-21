@@ -1,0 +1,37 @@
+{
+  "colors": [
+    "Black",
+    "Red",
+    "Orange",
+    "Blue",
+    "Yellow",
+    "Special",
+    "White",
+    "Green"
+  ],
+  "sizes": [
+    "2.5",
+    "3.5",
+    "4.5",
+    "5.5"
+    
+  ],
+  "gender": [
+   "Frames",
+   "Gifts",
+   "Studio"
+  ],
+  "category": [
+    "Ordinary Frames",
+    "Colourful Frames",
+    "Mount Frames",
+    "Collage Frames",
+    "Oil Painting with Frames",
+    "Glitter Frames",
+    "Glass Frames",
+    "Canvas Frames",
+    "LED Light Frames",
+    "Back Light Frames",
+    "God Photo Frames"
+  ]
+}

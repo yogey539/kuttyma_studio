@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Kuttyma Studio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="shortcut icon" href="/img/icons/favicon.png" /> <!-- favicon -->
+
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="stylesheet" href="/fontawesome/css/solid.css" />
+  <link rel="stylesheet" href="/fontawesome/css/regular.css" />
+  <link rel="stylesheet" href="/fontawesome/css/brands.css" />
+  <link rel="stylesheet" href="/fontawesome/css/fontawesome.min.css" />
+  <link rel="stylesheet" href="/css/utilities.css" />
+
+  <script type="module" defer src="/js/main.js"></script>
+</head>
+
+<body>
+  <!-- Header Start -->
+  <header id="header" class="sticky inset-0 h-20 z-100 bg-white">
+    <div class="container h-full">
+      <div class="flex-row h-full justify-between items-center gap-2">
+        <a href="/index.html" class="flex-row items-center">
+          <img class="h-12 w-12" draggable="false" src="/img/icons/favicon.png" alt="Hikstore" />
+        </a>
+        <nav class="flex-row gap-4 sm-hidden justify-center items-center mr-auto">
+          <a href="/index.html" class="link">
+            <span class="text-lg">Home</span>
+          </a>
+          <a href="/frames/index.html" class="link">
+            <span class="text-lg">Frames</span>
+          </a>
+          <a href="/frames/index.html" class="link">
+            <span class="text-lg">Gifts</span>
+          </a>
+          <a href="/gifts/index.html" class="link">
+            <span class="text-lg">Studio</span>
+          </a>
+        </nav>
+        <nav class="flex-row items-center justify-center">
+          <form action="" class="border flex-row gap-2 bg-gray rounded px-4 py-2 sm-hidden">
+            <label for="search">
+              <i class="fa-regular fa-magnifying-glass"></i>
+            </label>
+            <input type="search" name="search" id="search" placeholder="Search here..." disabled />
+          </form>
+          <button class="text-xl relative px-5 py-2 h-full">
+            <i class="fa-regular fa-bag-shopping"></i>
+            <span
+              class="absolute text-xs text-white top-0 right-2 bg-primary h-4 w-4 aspect-square rounded-full">0</span
+              disabled>
+          </button>
+
+        </nav>
+      </div>
+    </div>
+  </header>
+  <!-- Header End -->
+
+  <!-- Appbar Start -->
+  <nav id="app-bar" class="fixed inset-0 top-auto h-20 z-100 bg-gray -shadow-md hidden">
+    <div class="grid h-full grid-cols-5">
+      <a href="/index.html" class="flex-row items-center justify-center">
+        <img class="h-12" draggable="false" src="/img/icons/favicon.png" alt="Kuttyma Studio" />
+      </a>
+      <button class="text-2xl">
+        <i class="fa-regular fa-heart"></i>
+      </button>
+      <div class="relative">
+        <button
+          class="absolute btn-menu bg-white w-16 h-16 flex-row items-center justify-center rounded-full shadow-xl bottom-12 left-0 right-0 mx-auto">
+          <span class="menu-icon" style="margin-top: 0.25rem">
+            <span></span>
+          </span>
+        </button>
+      </div>
+      <button class="flex-row justify-center items-center">
+        <div class="w-max h-max relative text-2xl">
+          <i class="fa-regular fa-bag-shopping"></i>
+          <span
+            class="absolute text-xs text-white -top-1 -right-2 bg-primary h-4 w-4 aspect-square rounded-full">0</span>
+        </div>
+      </button>
+      <button class="user-profile text-2xl flex-col justify-center items-center">
+        <i class="fa-regular fa-user"></i>
+      </button>
+    </div>
+  </nav>
+  <!-- Appbar End -->
+
+  <!-- Sidebar Start -->
+  <aside id="side-bar" class="fixed inset-0">
+    <nav class="flex-col gap-4 relative w-4/5 mx-auto h-full my-1/10">
+      <div class="user-area flex-row items-center justify-between gap-2 mb-4">
+        <div class="text-white flex-row items-center gap-2">
+          <span class="user-profile text-xl">
+            <i class="fa-regular fa-user"></i>
+          </span>
+          <span class="text-lg user-email"></span>
+        </div>
+        <button type="button" class="logout border-2 border-primary rounded px-5 py-2 text-white">
+          Logout
+        </button>
+      </div>
+      <form action="" class="border flex-row gap-2 bg-gray rounded px-4 py-2 hidden sm-flex">
+        <label for="search-side">
+          <i class="fa-regular fa-magnifying-glass"></i>
+        </label>
+        <input type="search" name="search" id="search-side" placeholder="Search here..." disabled />
+      </form>
+      <a href="/index.html" class="nav-link flex-row justify-between items-center">
+        <span class="text-xl">Home</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+      <a href="/frames/index.html" class="nav-link flex-row justify-between items-center">
+        <span class="text-xl">Frame</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+      <a href="/frame/index.html" class="nav-link flex-row justify-between items-center">
+        <span class="text-xl">Gifts</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+      <a href="/gifts/index.html" class="nav-link flex-row justify-between items-center">
+        <span class="text-xl">Studio</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+
+    </nav>
+  </aside>
+  <!-- Sidebar End -->
+
+  <!-- Content Start -->
+  <main>
+    <section class="h-screen relative">
+      <div class="absolute inset-0 top-auto h-20 bg-black"></div>
+      <div class="h-full grid grid-cols-2 sm-grid-cols-none container">
+        <div class="flex-col justify-center gap-4">
+          <h1 class="text-6xl w-4/5 sm-text-4xl leading-tight mb-2">
+            Kuttyma Studio
+          </h1>
+          <p class="w-4/5 sm-w-full">
+            “ If you can’t feel what you’re looking at, then you’re never going to get others to feel anything when they
+            look at your pictures.”
+          </p>
+          <a href="help/index.html" class="border-2 w-max border-primary rounded mb-4 px-5 py-3 flex-row items-center gap-4">
+            <span class="font-medium text-lg">How To Order</span>
+            <span class="text-xl text-primary">
+              <i class="fa-solid fa-arrow-right-long"></i>
+            </span>
+          </a>
+          <div class="h-20 sm-hidden"></div>
+        </div>
+        <div class="relative flex-col justify-center items-center">
+          <img src="/img/home/h_main_image.jpg" class="w-full h-full object-cover" draggable="false" />
+          <div class="absolute inset-0 top-auto px-8 py-10">
+            <div class="flex-row gap-4 items-center text-white text-2xl">
+              <i class="fa-regular fa-location-dot"></i>
+              <span class="text-lg">Tharamangalam</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="h-max py-20 relative bg-black">
+      <div class="h-full container flex-col gap-6 justify-center">
+        <div class="grid grid-cols-2 sm-grid-cols-none gap-10">
+          <div class="flex-col gap-2 justify-center">
+            <h2 class="text-primary text-4xl leading-tight font-medium">
+              Follow me on Social media
+            </h2>
+          </div>
+          <div class="grid grid-cols-4 sm-grid-cols-6 gap-6">
+            <a href="/gifts/index.html" class="flex-col items-center justify-center px-2 py-6">
+
+              <img src="/img/home/facebook.svg" style="filter: grayscale(1)" />
+            </a>
+            <a href="/gifts/index.html" class="flex-col items-center justify-center px-2 py-6">
+
+              <img src="/img/home/instagram.svg" alt="Instagram" />
+            </a>
+            <a href="/gifts/index.html" class="flex-col items-center justify-center px-2 py-6">
+
+              <img src="/img/home/WhatsApp_logo.svg"  />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="h-max py-20 relative">
+      <div class="h-full container flex-col gap-10 justify-center">
+        <div class="flex-row sm-flex-col justify-between items-center gap-4">
+          <h2 class="text-4xl leading-tight text-center">
+            Available Categaries
+          </h2>
+          <a href="/frames/index.html" class="border-2 w-max border-primary rounded px-5 py-3 flex-row items-center gap-4">
+            <span class="font-medium">Shop Now</span>
+          </a>
+        </div>
+        <div class="grid grid-cols-4 sm-grid-cols-none gap-6" id="products"></div>
+        <a href="/frames/index.html" class="border-2 w-max border-primary rounded px-5 py-3 flex-row items-center gap-4">
+          <span class="font-medium">Show More</span>
+        </a>
+      </div>
+    </section>
+    <section class="min-h-screen h-max relative pb-10">
+      <div class="h-full container flex-col gap-10 justify-center">
+        <div class="grid grid-rows-2 sm-grid-rows-none gap-6 h-full">
+          <div class="grid grid-cols-3 sm-grid-cols-none gap-6">
+            <a href="/frames/index.html"
+              class="flex-col justify-end rounded-xl sm-aspect-square p-8 bg-frames">
+              <span class="text-white text-3xl font-medium">Frames</span>
+            </a>
+            <a href="/hikstore/product/index.html"
+              class="flex-col justify-end rounded-xl sm-aspect-square p-8 bg-gifts">
+              <span class="text-white text-3xl font-medium">Gifts</span>
+            </a>
+            <a href="/hikstore/product/index.html"
+              class="flex-col justify-end rounded-xl sm-aspect-square p-8 bg-wedding_categaries">
+              <span class="text-white text-3xl font-medium">Studio</span>
+            </a>
+          </div>
+          <div class="flex-col justify-center items-center gap-6 rounded-xl p-8 py-16 bg-black">
+            <h3 class="text-primary text-5xl sm-text-3xl leading-tight w-1/2 text-center sm-w-full">
+              Upcoming Features
+            </h3>
+            <a href="/hikstore/product/index.html"
+              class="border-2 w-max border-white bg-white rounded px-4 py-2 flex-row items-center gap-4">
+              <span class="text-md">See Our ideas</span>
+              <span class="text-xl">
+                <i class="fa-solid fa-arrow-right-long"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Content End -->
+
+  <!-- Footer Start -->
+  <footer class="py-10 bg-gray">
+    <div class="container h-full">
+      <div class="grid grid-cols-3 gap-6 sm-grid-cols-none">
+        <div class="flex-col gap-2">
+          <a href="/index.html" class="flex-row items-center gap-2">
+            <img class="h-12" draggable="false" src="/img/icons/favicon.png" />
+            <h2 class="text-2xl">Kuttyma Studio</h2>
+          </a>
+          <p class="text-base w-4/5 mb-2">
+            “ If you can’t feel what you’re looking at, then you’re never going to get others to feel anything when they
+            look at your pictures.”
+          </p>
+          <div class="flex-row gap-4">
+            <a href="#"
+              class="h-10 w-10 bg-facebook text-white rounded-full flex-row justify-center items-center h-full text-xl">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="h-10 w-10 bg-instagram text-white rounded-full">
+              <span class="flex-row justify-center items-center h-full text-xl">
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+            </a>
+            <a href="#" class="h-10 w-10 bg-twitter text-white rounded-full">
+              <span class="flex-row justify-center items-center h-full text-xl">
+                <i class="fa-brands fa-twitter"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div class="flex-col gap-2">
+          <h3 class="text-xl mb-2">Support</h3>
+          <a href="#" class="hover-underline">Help &#38; FAQ</a>
+          <a href="#" class="hover-underline">Term of Service</a>
+          <a href="#" class="hover-underline">Privacy Policy</a>
+        </div>
+        <div class="flex-col gap-4">
+          <h4 class="text-xl">Payment Method</h4>
+          <div class="flex-row gap-6">
+            <img src="/img/footer/Paypal.svg" style="height: 1.5rem" alt="Paypal" />
+            <img src="/img/footer/MasterCard.svg" style="height: 2rem" alt="MasterCard" />
+          </div>
+          <h4 class="text-xl">Delivery Service</h4>
+          <div class="flex-row items-center gap-2">
+            <img src="/img/footer/J&T.svg" style="height: 1.5rem" alt="JNT" />
+            <img src="/img/footer/Gosend.svg" style="height: 2.5rem" alt="GoSend" />
+            <img src="/img/footer/JNE.png" style="height: 2rem" alt="JNE" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer End -->
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5B7R2F5EPV"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-5B7R2F5EPV");
+  </script>
+</body>
+
+</html>
