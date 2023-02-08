@@ -42,18 +42,38 @@ const setImageSize = () => {
 document.addEventListener("DOMContentLoaded", setImageSize);
 document.addEventListener("resize", setImageSize);
 
+
+const gettotal = (target = "#gettotal") => {
+  fetch("/data/products.json")
+    .then((res) => res.json())
+    .then(function (data) {
+      const element = select(target, false);
+      
+          element.insertAdjacentHTML(
+            "beforeend",
+             `<div class="shop-title">
+            <div class="text">
+              <h4 class="text-xl">Showing ${data.length } of ${data.length } results</h4>
+            </div>
+            </div>`
+          );
+    })
+    .then(setImageSize);
+};
+
 const getAllProduct = (target = "#products", total = 8) => {
   fetch("/data/products.json")
     .then((res) => res.json())
     .then(function (data) {
       const element = select(target, false);
       if (element) {
+    
         if(total == -1){
           total = data.length
           console.log(total)
         }
         for (let i = 0; i < total; i++) {
-          console.log(data[i].images[0])
+          
           element.insertAdjacentHTML(
             "beforeend",
             `<div class="flex-col gap-4">
@@ -64,11 +84,6 @@ const getAllProduct = (target = "#products", total = 8) => {
                     alt="${data[i].title}"
                     srcset="${data[i].thumbnail}"
                   />
-                 
-                  <button class="btn-wish text-xl" aria-label="Add Wishlist"></button>
-                  <button class="btn-cart flex-row text-sm px-4 py-2">
-                    Add to Cart
-                  </button>
                 </div>
                 <div class="flex-col gap-2 px-2">
                   <div class="flex-row flex-wrap gap-x-2">
@@ -78,7 +93,7 @@ const getAllProduct = (target = "#products", total = 8) => {
                       })
                       .join("")}
                   </div>
-                  <a href="/product/detail.html" class="-mt-1">
+                  <a href="/frames/detail.html" class="-mt-1">
                     <h2 class="text-xl hover-text-primary hover-underline">${
                       data[i].title
                     }</h2>
@@ -94,5 +109,5 @@ const getAllProduct = (target = "#products", total = 8) => {
 };
 
 
-export { select, addEvent, getRandomAvatar, getAllProduct };
+export { select, addEvent, getRandomAvatar, getAllProduct,gettotal };
 
