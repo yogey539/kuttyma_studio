@@ -48,7 +48,6 @@ const gettotal = (target = "#gettotal") => {
     .then((res) => res.json())
     .then(function (data) {
       const element = select(target, false);
-      
           element.insertAdjacentHTML(
             "beforeend",
              `<div class="shop-title">

@@ -1,6 +1,7 @@
 import Auth from "./auth.js";
 import { select, addEvent, getAllProduct, gettotal} from "./utils.js";
 
+
 const auth = new Auth();
 auth.init();
 
