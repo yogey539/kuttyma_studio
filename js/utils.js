@@ -77,7 +77,7 @@ const getAllProduct = (target = "#products", total = 8) => {
                       })
                       .join("")}
                   </div>
-                  <a href="/frames/detail.html" class="-mt-1">
+                  <a href="/frames/detail.html" class="-mt-1 isDisabled">
                     <h2 class="text-xl hover-text-primary hover-underline">${
                       data[i].title
                     }</h2>
