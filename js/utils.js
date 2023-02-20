@@ -43,22 +43,7 @@ document.addEventListener("DOMContentLoaded", setImageSize);
 document.addEventListener("resize", setImageSize);
 
 
-const gettotal = (target = "#gettotal") => {
-  fetch("/data/products.json")
-    .then((res) => res.json())
-    .then(function (data) {
-      const element = select(target, false);
-          element.insertAdjacentHTML(
-            "beforeend",
-             `<div class="shop-title">
-            <div class="text">
-              <h4 class="text-xl">Showing ${data.length } of ${data.length } results</h4>
-            </div>
-            </div>`
-          );
-    })
-    .then(setImageSize);
-};
+
 
 const getAllProduct = (target = "#products", total = 8) => {
   fetch("/data/products.json")
@@ -92,7 +77,7 @@ const getAllProduct = (target = "#products", total = 8) => {
                       })
                       .join("")}
                   </div>
-                  <a href="/frames/detail.html" class="-mt-1">
+                  <a href="/frames/detail.html" class="-mt-1 isDisabled">
                     <h2 class="text-xl hover-text-primary hover-underline">${
                       data[i].title
                     }</h2>
@@ -107,6 +92,22 @@ const getAllProduct = (target = "#products", total = 8) => {
     .then(setImageSize);
 };
 
+const gettotal = (target = "#gettotal") => {
+  fetch("/data/products.json")
+    .then((res) => res.json())
+    .then(function (data) {
+      const element = select(target, false);
+          element.insertAdjacentHTML(
+            "beforeend",
+             `<div class="shop-title">
+            <div class="text">
+              <h4 class="text-xl">Showing ${data.length } of ${data.length } results</h4>
+            </div>
+            </div>`
+          );
+    })
+    .then(setImageSize);
+};
 
 export { select, addEvent, getRandomAvatar, getAllProduct,gettotal };
 

@@ -1,5 +1,5 @@
 import Auth from "./auth.js";
-import { select, addEvent, getAllProduct, gettotal} from "./utils.js";
+import { select, addEvent, getAllProduct} from "./utils.js";
 
 
 const auth = new Auth();
@@ -8,7 +8,7 @@ auth.init();
 getAllProduct("#products",4);
 getAllProduct("#all-product", -1);
 getAllProduct("#recommend", 4);
-gettotal("#gettotal")
+
 
 document.addEventListener("click", function (event) {
   const { target } = event;
@@ -92,4 +92,3 @@ function toggleMenuIcons() {
   }
 }
 
-console.log("Loaded");

@@ -141,6 +141,12 @@ main {
   min-height: 100vh;
 }
 /* ===== Components ===== */
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  text-decoration: none;
+  pointer-events: none;
+}
 .menu-icon {
   --color: var(--black);
   width: 1.75rem;
