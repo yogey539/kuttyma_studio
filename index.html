@@ -24,7 +24,7 @@
     <div class="container h-full">
       <div class="flex-row h-full justify-between items-center gap-2">
         <a href="/index.html" class="flex-row items-center">
-          <img class="h-12 w-12" draggable="false" src="/img/icons/favicon.png" alt="Hikstore" />
+          <img class="h-12 w-12" draggable="false" src="/img/icons/favicon.png" />
         </a>
         <nav class="flex-row gap-4 sm-hidden justify-center items-center mr-auto">
           <a href="/index.html" class="link">
@@ -33,10 +33,10 @@
           <a href="/frames/index.html" class="link">
             <span class="text-lg">Frames</span>
           </a>
-          <a href="/frames/index.html" class="link">
+          <a href="/gifts/index.html" class="link">
             <span class="text-lg">Gifts</span>
           </a>
-          <a href="/gifts/index.html" class="link">
+          <a href="/studio/index.html" class="link">
             <span class="text-lg">Studio</span>
           </a>
         </nav>
@@ -46,6 +46,12 @@
               <i class="fa-regular fa-magnifying-glass"></i>
             </label>
             <input type="search" name="search" id="search" placeholder="Search here..." disabled />
+          </form>
+          <button class="btn-menu flex-row items-center gap-2 hidden sm-flex border-l px-5 py-2 h-full">
+            <span class="menu-icon">
+              <span></span>
+            </span>
+          </button>
         </nav>
       </div>
     </div>
@@ -56,7 +62,7 @@
   <nav id="app-bar" class="fixed inset-0 top-auto h-20 z-100 bg-gray -shadow-md hidden">
     <div class="grid h-full grid-cols-5">
       <a href="/index.html" class="flex-row items-center justify-center">
-        <img class="h-12" draggable="false" src="/img/icons/favicon.png" alt="Kuttyma Studio" />
+        <img class="h-12" draggable="false" src="/img/icons/favicon.png" />
       </a>
       <button class="text-2xl">
         <i class="fa-regular fa-heart"></i>
@@ -86,14 +92,6 @@
   <!-- Sidebar Start -->
   <aside id="side-bar" class="fixed inset-0">
     <nav class="flex-col gap-4 relative w-4/5 mx-auto h-full my-1/10">
-      <div class="user-area flex-row items-center justify-between gap-2 mb-4">
-        <div class="text-white flex-row items-center gap-2">
-          <span class="user-profile text-xl">
-            <i class="fa-regular fa-user"></i>
-          </span>
-          <span class="text-lg user-email"></span>
-        </div>
-      </div>
       <form action="" class="border flex-row gap-2 bg-gray rounded px-4 py-2 hidden sm-flex">
         <label for="search-side">
           <i class="fa-regular fa-magnifying-glass"></i>
@@ -105,14 +103,14 @@
         <i class="fa-solid fa-arrow-right"></i>
       </a>
       <a href="/frames/index.html" class="nav-link flex-row justify-between items-center">
-        <span class="text-xl">Frame</span>
-        <i class="fa-solid fa-arrow-right"></i>
-      </a>
-      <a href="/frame/index.html" class="nav-link flex-row justify-between items-center">
-        <span class="text-xl">Gifts</span>
+        <span class="text-xl">Frames</span>
         <i class="fa-solid fa-arrow-right"></i>
       </a>
       <a href="/gifts/index.html" class="nav-link flex-row justify-between items-center">
+        <span class="text-xl">Gifts</span>
+        <i class="fa-solid fa-arrow-right"></i>
+      </a>
+      <a href="/studio/index.html" class="nav-link flex-row justify-between items-center">
         <span class="text-xl">Studio</span>
         <i class="fa-solid fa-arrow-right"></i>
       </a>
