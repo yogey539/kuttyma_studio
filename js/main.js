@@ -1,13 +1,14 @@
 import Auth from "./auth.js";
 
-
+import {select, addEvent, getAllProduct} from "./utils.js";
 
 const auth = new Auth();
 auth.init();
 
-getAllProduct("#recommend", 4);
 
-getAllProduct("#all-product", -1);
+
+
+getAllProduct("#recommend", 4);
 
 
 
