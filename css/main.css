@@ -26,6 +26,7 @@ html {
   font-family: var(--font-primary), var(--font-fallback) !important;
   line-height: 1.5;
   background-color: var(--white);
+  scroll-behavior: smooth;
 }
 body,
 h1,
@@ -147,6 +148,7 @@ main {
   text-decoration: none;
   pointer-events: none;
 }
+
 .menu-icon {
   --color: var(--black);
   width: 1.75rem;
