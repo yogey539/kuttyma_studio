@@ -1,4 +1,4 @@
-import { select, addEvent, getAllProduct} from "./utils.js";
+import { addEvent, getAllProduct} from "./utils.js";
 
 getAllProduct("#products",4);
 

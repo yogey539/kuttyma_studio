@@ -45,10 +45,12 @@ document.addEventListener("resize", setImageSize);
 
 
 
-const getAllProduct = (target = "#products", total = 8,) => {
+const getAllProduct = (target = "#products", total = 8, categories= "all") => {
   fetch("/data/products.json")
     .then((res) => res.json())
     .then(function (data) {
+
+      
       const element = select(target, false);
       if (element) {
     
@@ -57,6 +59,7 @@ const getAllProduct = (target = "#products", total = 8,) => {
           console.log(total)
         }
         for (let i = 0; i < total; i++) {
+          
           
           element.insertAdjacentHTML(
             "beforeend",
@@ -89,6 +92,7 @@ const getAllProduct = (target = "#products", total = 8,) => {
         }
       }
     })
+ 
     .then(setImageSize);
 };
 
