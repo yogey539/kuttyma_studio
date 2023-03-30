@@ -45,7 +45,7 @@ document.addEventListener("resize", setImageSize);
 
 
 
-const getAllProduct = (target = "#products", total = 8,) => {
+const getAllProduct = (target = "#products", total = 8) => {
   fetch("/data/products.json")
     .then((res) => res.json())
     .then(function (data) {
@@ -108,8 +108,6 @@ const gettotal = (target = "#gettotal") => {
     })
     .then(setImageSize);
 };
-
-
 
 export { select, addEvent, getRandomAvatar, getAllProduct,gettotal };
 

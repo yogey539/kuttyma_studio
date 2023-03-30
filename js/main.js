@@ -1,14 +1,13 @@
 import Auth from "./auth.js";
-
+import { select, addEvent, getAllProduct} from "./utils.js";
 
 
 const auth = new Auth();
 auth.init();
 
-getAllProduct("#recommend", 4);
-
+getAllProduct("#products",4);
 getAllProduct("#all-product", -1);
-
+getAllProduct("#recommend", 4);
 
 
 document.addEventListener("click", function (event) {
@@ -34,7 +33,16 @@ addEvent("submit", ".form-login", (e) => {
   auth.login();
 });
 
-
+addEvent(
+  "click",
+  ".btn-menu",
+  function () {
+    const sidebar = select("#side-bar");
+    if (sidebar) sidebar.classList.toggle("is-open");
+    toggleMenuIcons();
+  },
+  true
+);
 
 addEvent(
   "click",
@@ -68,5 +76,19 @@ if (links) {
   });
 }
 
-
+function toggleMenuIcons() {
+  const menuIcons = select(".menu-icon", true);
+  const sidebar = select("#side-bar");
+  if (menuIcons && sidebar) {
+    if (sidebar.classList.contains("is-open")) {
+      menuIcons.forEach(function (menu) {
+        menu.classList.add("is-open");
+      });
+    } else {
+      menuIcons.forEach(function (menu) {
+        menu.classList.remove("is-open");
+      });
+    }
+  }
+}
 
