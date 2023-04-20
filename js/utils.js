@@ -70,13 +70,7 @@ const getAllProduct = (target = "#products", total = 8) => {
                   />
                 </div>
                 <div class="flex-col gap-2 px-2">
-                  <div class="flex-row flex-wrap gap-x-2">
-                    ${data[i].categories
-                      .map(function (category) {
-                        return `<a href="#" class="hover-underline">${category}</a>`;
-                      })
-                      .join("")}
-                  </div>
+                  
                   <a href="/frames/detail.html" class="-mt-1 isDisabled">
                     <h2 class="text-xl hover-text-primary hover-underline">${
                       data[i].title
