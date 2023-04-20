@@ -1,128 +1,42 @@
 [
   {
     "title": "Collage Frames",
-    "description": "",
-    "categories":[
-      "Collage Frames"
-    ],
     "price": "####",
-    "thumbnail": "/img/frames/collage_frames/sample_1.jpg",
-    "images": [
-      "/img/frames/collage_frames/sample_1.jpg"
-    ],
-    "cover_image":["/img/frames/collage_frames/sample_1.jpg"
-    ]
+    "thumbnail": "/img/frames/collage_frames/sample_1.jpg"
   },
   {
     "title": "Collage Frames",
-    "description": "",
-    "categories":[
-      "Collage Frames"
-    ],
     "price": "####",
-    "thumbnail": "/img/frames/collage_frames/images.jfif",
-    "images": [
-      "/img/frames/collage_frames/images.jfif"
-    ],
-    "cover_image":["/img/frames/collage_frames/images.jfif"
-    ]
+    "thumbnail": "/img/frames/collage_frames/images.jfif"
   },
   {
     "title": "Collage Frames",
-    "description": "",
-    "categories":[
-      "Collage Frames"
-    ],
     "price": "####",
-    "thumbnail": "/img/frames/collage_frames/frame_f0f322e4-cb36-45ed-ab76-3815829a6d55_1024x1024.webp",
-    "images": [
-      "/img/frames/collage_frames/frame_f0f322e4-cb36-45ed-ab76-3815829a6d55_1024x1024.webp"
-    ],
-    "cover_image":[
-      "/img/frames/collage_frames/frame_f0f322e4-cb36-45ed-ab76-3815829a6d55_1024x1024.webp"
-    ]
+    "thumbnail": "/img/frames/collage_frames/frame_f0f322e4-cb36-45ed-ab76-3815829a6d55_1024x1024.webp"
   },
   {
     "title": "Colourful Frames",
-    "description": "",
-    "categories":[
-      "Colourful Frames"
-    ],
     "price": ": ####",
-    "thumbnail": "/img/frames/colourful_frames/sample.jfif",
-    "images": [
-      "/img/frames/colourful_frames/sample.jfif"
-    ],
-    "cover_image":[
-      "/img/frames/colourful_frames/sample.jfif"
-    ]
-
+    "thumbnail": "/img/frames/colourful_frames/sample.jfif"
   },
   {
     "title": "Glitter Frames",
-    "description": "",
-    "categories":[
-      "Glitter Frames"
-    ],
     "price": ": ####",
-    "thumbnail": "/img/frames/glitter_frames/81oHKnvxAFL._SX522_.jpg",
-    "images": [
-      "/img/frames/glitter_frames/81oHKnvxAFL._SX522_.jpg"
-      
-    ],
-    "cover_image":[
-      "/img/frames/glitter_frames/81oHKnvxAFL._SX522_.jpg"
-    ]
+    "thumbnail": "/img/frames/glitter_frames/81oHKnvxAFL._SX522_.jpg"
   },
   {
     "title": "Mount Frames",
-    "description": "",
-    "categories":[
-      "Mount Frames"
-    ],
     "price": ": ####",
-    "thumbnail": "/img/frames/mount_frames/Canvas-Frame.webp",
-    "images": [
-      "/img/frames/ordinary_frames/sa.avif"
-      
-    ],
-    "cover_image":[
-      "/img/frames/ordinary_frames/sample.avif",
-      "/img/frames/ordinary_frames/sa.avif",
-      "/img/frames/ordinary_frames/sample.avif",
-      "/img/frames/ordinary_frames/sample.avif"
-    ]
+    "thumbnail": "/img/frames/mount_frames/Canvas-Frame.webp"
   },
   {
     "title": "Oil Painting",
-    "description": "",
-    "categories":[
-      "Oil Painting Frames"
-    ],
     "price": ": ####",
-    "thumbnail": "/img/frames/oil_painting_frames/Canvas-Painting.jpg",
-    "images": [
-      "/img/frames/oil_painting_frames/Canvas-Painting.jpg"
-      
-    ],
-    "cover_image":[
-      "/img/frames/oil_painting_frames/Canvas-Painting.jpg"
-    ]
+    "thumbnail": "/img/frames/oil_painting_frames/Canvas-Painting.jpg"
   },
   {
     "title": "Ordinary Frames",
-    "description": "",
-    "categories":[
-      "Ordinary Frames"
-    ],
     "price": ": ####",
-    "thumbnail": "/img/frames/ordinary_frames/four-six.webp",
-    "images": [
-      "/img/frames/ordinary_frames/four-six.webp"
-      
-    ],
-    "cover_image":[
-      "/img/frames/ordinary_frames/four-six.webp"
-    ]
+    "thumbnail": "/img/frames/ordinary_frames/four-six.webp"
   }
 ]

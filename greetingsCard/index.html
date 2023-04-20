@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Greetings Card</title>
+	<style type="text/css">
+		body {
+			background-color: #f9f9f9;
+			font-family: Arial, sans-serif;
+			text-align: center;
+		}
+		.container {
+			max-width: 600px;
+			margin: 0 auto;
+			padding: 20px;
+			background-color: #ffffff;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+		}
+		.card-img {
+			max-width: 100%;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+         border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+		}
+        button {
+			border: none;
+			background-color: transparent;
+			padding: 10px;
+			font-size: 28px;
+            font-weight: 500;
+			color: #333;
+			cursor: pointer;
+			display: inline-block;
+			transition: transform 0.2s;
+		}
+		button:hover {
+			transform: translateX(-5px);
+		}
+		.back-arrow {
+			display: inline-block;
+			vertical-align: middle;
+			margin-right: 5px;
+			transform: rotate(180deg);
+			transition: transform 0.2s;
+		}
+		button:hover .back-arrow {
+			transform: translateX(-5px) rotate(180deg);
+		}
+	</style>
+</head>
+<body>
+   <a href="/index.html">
+       <button>
+        <span class="front-arrow">&#8592;</span>
+        Back
+    </button></a>
+	<div class="container">
+		<h1>Greetings Page</h1>
+		<img class="card-img" src="images/img-1.jpeg" >
+        <h1></h1>
+		<img class="card-img" src="images/img-1.jpeg" >
+		<h3>Have a great day!</h3>
+        
+	</div>
+    
+</body>
+</html>
