@@ -1,42 +1,7 @@
 [
   {
     "title": "Collage Frames",
-    "price": "####",
-    "thumbnail": "/img/frames/collage_frames/sample_1.jpg"
-  },
-  {
-    "title": "Collage Frames",
-    "price": "####",
-    "thumbnail": "/img/frames/collage_frames/images.jfif"
-  },
-  {
-    "title": "Collage Frames",
-    "price": "####",
-    "thumbnail": "/img/frames/collage_frames/frame_f0f322e4-cb36-45ed-ab76-3815829a6d55_1024x1024.webp"
-  },
-  {
-    "title": "Colourful Frames",
-    "price": ": ####",
-    "thumbnail": "/img/frames/colourful_frames/sample.jfif"
-  },
-  {
-    "title": "Glitter Frames",
-    "price": ": ####",
-    "thumbnail": "/img/frames/glitter_frames/81oHKnvxAFL._SX522_.jpg"
-  },
-  {
-    "title": "Mount Frames",
-    "price": ": ####",
-    "thumbnail": "/img/frames/mount_frames/Canvas-Frame.webp"
-  },
-  {
-    "title": "Oil Painting",
-    "price": ": ####",
-    "thumbnail": "/img/frames/oil_painting_frames/Canvas-Painting.jpg"
-  },
-  {
-    "title": "Ordinary Frames",
-    "price": ": ####",
-    "thumbnail": "/img/frames/ordinary_frames/four-six.webp"
+    "price": "1000",
+    "thumbnail": "/img/frames/1_collage_frame_1000.jpg"
   }
 ]
