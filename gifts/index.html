@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Frames - Kuttyma Studio</title>
+  <title>Gifts - Kuttyma Studio</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta property="og:locale" content="en" />
   <meta name="theme-color" content="#f4f4f5" />
@@ -43,7 +43,7 @@
           <a href="/gifts/index.html" class="link">
             <span class="text-lg">Gifts</span>
           </a>
-          <a href="/studio/index.html" class="link">
+          <a href="/studio/index.html" class="link isDisabled">
             <span class="text-lg">Studio</span>
           </a>
         </nav>
@@ -117,7 +117,7 @@
         <span class="text-xl">Gifts</span>
         <i class="fa-solid fa-arrow-right"></i>
       </a>
-      <a href="/studio/index.html" class="nav-link flex-row justify-between items-center">
+      <a href="/studio/index.html" class="nav-link flex-row justify-between items-center isDisabled">
         <span class="text-xl">Studio</span>
         <i class="fa-solid fa-arrow-right"></i>
       </a>
@@ -129,11 +129,11 @@
   <main>
     <section class="container py-6 pb-10">
       <div class="sidebar-top">
-        <h1 class="mb-2">Frames</h1>
+        <h1 class="mb-2">Gifts</h1>
         <div class="flex-row gap-2 mb-2 text-lg">
           <a href="/index.html">Home</a>
           /
-          <a href="/frames/index.html">Frames</a>
+          <a href="/gifts/index.html">Gifts</a>
         </div>
         <button data-modal-target="#sidebar" class="filter hidden sm-block">
           <div class="icon">Filter</div>
@@ -162,32 +162,7 @@
                     <h3>Filter by Cattegory:</h3>
                   </div>
                   <div class="list-categori">
-                    <ul>
-                      <li>
-                        <input type="checkbox" id="checkbox" />
-                        <label for="checkbox">Ordinary Frames</label>
-                      </li>
-                      <li>
-                        <input type="checkbox" id="checkbox1" />
-                        <label for="checkbox1">Colourful Frames</label>
-                      </li>
-                      <li>
-                        <input type="checkbox" id="checkbox2" />
-                        <label for="checkbox2">Colourful Frames</label>
-                      </li>
-                      <li>
-                        <input type="checkbox" id="checkbox3" />
-                        <label for="checkbox3">Collage Frames</label>
-                      </li>
-                      <li>
-                        <input type="checkbox" id="checkbox4" />
-                        <label for="checkbox4">Oil Painting with Frames</label>
-                      </li>
-                      <li>
-                        <input type="checkbox" id="checkbox6" />
-                        <label for="checkbox6">Glitter Frames</label>
-                      </li>
-                    </ul>
+                    
                   </div>
                 </div>              
                 <div class="apply-filter">
@@ -204,19 +179,11 @@
           </div>
           <div class="shop-section">
             <div class="shop-title">
-              <div class="shop-title" id="gettotal"></div>
-              <!-- <div class="sort-section">
-                  <select name="" id="">
-                    <option value="popular">Popular</option>
-                    <option value="new">New</option>
-                    <option value="discount">Discount</option>
-                  </select>
-                </div>
-              <div class="category-top"></div> -->
+              <div class="shop-title" id="gettotalgifts"></div>
               
             </div>
 
-            <div class="sections_group" id="all-product"></div>
+            <div class="sections_group" id="all-gifts"></div>
           </div>
         </div>
       </div>
@@ -238,17 +205,17 @@
             look at your pictures.”
           </p>
           <div class="flex-row gap-4">
-            <a href="#" class="h-10 w-10 bg-facebook text-white rounded-full">
+            <a href="#" class="h-10 w-10 bg-facebook text-white rounded-full isDisabled">
               <span class="flex-row justify-center items-center h-full text-xl">
                 <i class="fa-brands fa-facebook-f"></i>
               </span>
             </a>
-            <a href="#" class="h-10 w-10 bg-instagram text-white rounded-full">
+            <a href="#" class="h-10 w-10 bg-instagram text-white rounded-full isDisabled">
               <span class="flex-row justify-center items-center h-full text-xl">
                 <i class="fa-brands fa-instagram"></i>
               </span>
             </a>
-            <a href="#" class="h-10 w-10 bg-twitter text-white rounded-full">
+            <a href="#" class="h-10 w-10 bg-twitter text-white rounded-full isDisabled">
               <span class="flex-row justify-center items-center h-full text-xl">
                 <i class="fa-brands fa-twitter"></i>
               </span>
@@ -257,21 +224,21 @@
         </div>
         <div class="flex-col gap-2">
           <h4 class="text-xl mb-2">Support</h4>
-          <a href="#" class="hover-underline">Help &#38; FAQ</a>
-          <a href="#" class="hover-underline">Term of Service</a>
-          <a href="#" class="hover-underline">Privacy Policy</a>
+          <a href="#" class="hover-underline isDisabled">Help &#38; FAQ</a>
+          <a href="#" class="hover-underline isDisabled">Term of Service</a>
+          <a href="#" class="hover-underline isDisabled">Privacy Policy</a>
         </div>
         <div class="flex-col gap-4">
           <h4 class="text-xl">Payment Method</h4>
           <div class="flex-row gap-6">
-            <img src="/img/footer/Paypal.svg" style="height: 1.5rem" alt="Paypal" />
-            <img src="/img/footer/MasterCard.svg" style="height: 2rem" alt="MasterCard" />
+            <!-- <img src="/img/footer/Paypal.svg" style="height: 1.5rem" alt="Paypal" />
+            <img src="/img/footer/MasterCard.svg" style="height: 2rem" alt="MasterCard" /> -->
           </div>
           <h4 class="text-xl">Delivery Service</h4>
           <div class="flex-row items-center gap-2">
-            <img src="/img/footer/J&T.svg" style="height: 1.5rem" alt="JNT" />
+            <!-- <img src="/img/footer/J&T.svg" style="height: 1.5rem" alt="JNT" />
             <img src="/img/footer/Gosend.svg" style="height: 2.5rem" alt="GoSend" />
-            <img src="/img/footer/JNE.png" style="height: 2rem" alt="JNE" />
+            <img src="/img/footer/JNE.png" style="height: 2rem" alt="JNE" /> -->
           </div>
         </div>
       </div>

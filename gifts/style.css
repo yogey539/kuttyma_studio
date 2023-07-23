@@ -14,7 +14,7 @@ Body {
   align-items: center;
   padding: 100px 0;
   color: var(--white);
-  background-image: url(https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2xvdGhpbmdzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+  background-image: url(/img/gifts/main/gift_back.jpg);
   background-position: center;
   background-size: contain;
   background-repeat: repeat-x;
@@ -506,7 +506,7 @@ input[type="checkbox"]:checked:after {
   padding-right: 4px;
 }
 .post-img {
-  background-image: url("https://static.mammut.com/cdn-cgi/image/width=1000,quality=50,f=auto,metadata=none/master/1016-00800-50031_main-grey_229965.jpg"); /* First Image URL */
+  background-image: url(/img/gifts/main/gift_back.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   width: 250px;
@@ -516,7 +516,7 @@ input[type="checkbox"]:checked:after {
   margin-bottom: 10px;
 }
 .post-img:hover {
-  background-image: url("https://static.mammut.com/cdn-cgi/image/width=1000,quality=50,f=auto,metadata=none/master/1016-00800-50031_mod-main-hf-png_236959.png"); /* Second Image URL */
+  background-image: url(/img/gifts/main/gift_back.jpg);
 }
 
 .cate {

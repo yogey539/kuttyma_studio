@@ -1,5 +1,5 @@
 import Auth from "./auth.js";
-import { select, addEvent, getAllProduct} from "./utils.js";
+import { select, addEvent, getAllProduct, getAllgifts} from "./utils.js";
 
 
 const auth = new Auth();
@@ -9,6 +9,8 @@ getAllProduct("#products",4);
 getAllProduct("#all-product", -1);
 getAllProduct("#recommend", 4);
 
+
+getAllgifts("#all-gifts");
 
 document.addEventListener("click", function (event) {
   const { target } = event;
