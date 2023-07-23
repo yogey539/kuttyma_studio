@@ -76,7 +76,7 @@ const getAllProduct = (target = "#products", total = 8) => {
                       data[i].title
                     }</h2>
                   </a>
-                  <span class="font-medium">RS ${data[i].price} </span>
+                 
                 </div>
               </div>`
           );

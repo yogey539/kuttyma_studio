@@ -1,1 +1,42 @@
-[{"title": "Glitter frame", "price": "600-1000", "thumbnail": "img/frames/1_Glitter Frame_600-1000.jpg"}, {"title": "College frame", "price": "1000", "thumbnail": "/img/frames/2_College Frame_1000.jpg"}]
+[
+  {
+    "title": "F1",
+    "price": "####",
+    "thumbnail": "/img/frames/F1.jpg"
+  },
+  {
+    "title": "F2",
+    "price": "####",
+    "thumbnail": "/img/frames/F2.jpg"
+  },
+  {
+    "title": "F3",
+    "price": "####",
+    "thumbnail": "/img/frames/F3.jpg"
+  },
+  {
+    "title": "F4",
+    "price": "####",
+    "thumbnail": "/img/frames/F4.jpg"
+  },
+  {
+    "title": "F5",
+    "price": "####",
+    "thumbnail": "/img/frames/F5.jpg"
+  },
+  {
+    "title": "F6",
+    "price": "####",
+    "thumbnail": "/img/frames/F6.jpg"
+  },
+  {
+    "title": "F7",
+    "price": "####",
+    "thumbnail": "/img/frames/F7.jpg"
+  },
+  {
+    "title": "F8",
+    "price": "####",
+    "thumbnail": "/img/frames/F8.jpg"
+  }
+]

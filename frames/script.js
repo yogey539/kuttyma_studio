@@ -14,7 +14,7 @@ fetch("../data/products.json")
         <div class="image-thumbnail">
         <a href="#" class="hover-switch">
         <img src="${item.thumbnail}" alt="${item.title}"/>
-        <img src="${item.images[0]}" alt="${item.title}"/>
+        <img src="${item.thumbnail}" alt="${item.title}"/>
         </a>
             <div class="section-btn">
             <button class="text-sm btn" id="btn">
