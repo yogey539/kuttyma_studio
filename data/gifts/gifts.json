@@ -1,96 +1,27 @@
 [
-    {
-      "title": "Ordinary Frames",
-      "description": "Practical functional shirt for hiking: the Aegility Longsleeve Men is quick drying and breathable. It impresses with a Polygiene antimicrobial treatment to reduce unpleasant odors as well as a lightweight, comfortable stretch material. The melange effect gives this functional shirt a trendy look.",
-      "categories":[
-        "Ordinary Frames"
-      ],
-      "price": 110,
-      "thumbnail": "/img/frames/ordinary_frames/sa.avif",
-      "images": [
-        "/img/frames/ordinary_frames/sample.avif"
-      ],
-      "cover_image":[
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sample.avif"
-      ]
-    },
-    {
-      "title": "sample Frames",
-      "description": "Practical functional shirt for hiking: the Aegility Longsleeve Men is quick drying and breathable. It impresses with a Polygiene antimicrobial treatment to reduce unpleasant odors as well as a lightweight, comfortable stretch material. The melange effect gives this functional shirt a trendy look.",
-      "categories":[
-        "Colourful Frames"
-      ],
-      "price": 110,
-      "thumbnail": "/img/frames/ordinary_frames/sample.avif",
-      "images": [
-        "/img/frames/ordinary_frames/sa.avif"
-      ],
-      "cover_image":[
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sa.avif"
-      ]
-  
-    },
-    {
-      "title": "Ordinary Frames",
-      "description": "Practical functional shirt for hiking: the Aegility Longsleeve Men is quick drying and breathable. It impresses with a Polygiene antimicrobial treatment to reduce unpleasant odors as well as a lightweight, comfortable stretch material. The melange effect gives this functional shirt a trendy look.",
-      "categories":[
-        "Ordinary Frames"
-      ],
-      "price": 110,
-      "thumbnail": "/img/frames/ordinary_frames/sa.avif",
-      "images": [
-        "/img/frames/ordinary_frames/sa.avif"
-        
-      ],
-      "cover_image":[
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sa.avif",
-        "/img/frames/ordinary_frames/sample.avif"
-      ]
-    },
-    {
-      "title": "sample Frames",
-      "description": "Practical functional shirt for hiking: the Aegility Longsleeve Men is quick drying and breathable. It impresses with a Polygiene antimicrobial treatment to reduce unpleasant odors as well as a lightweight, comfortable stretch material. The melange effect gives this functional shirt a trendy look.",
-      "categories":[
-        "Ordinary Frames"
-      ],
-      "price": 110,
-      "thumbnail": "/img/frames/ordinary_frames/sample.avif",
-      "images": [
-        "/img/frames/ordinary_frames/sa.avif"
-        
-      ],
-      "cover_image":[
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sa.avif",
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sample.avif"
-      ]
-    },
-    {
-      "title": "Ordinary Frames",
-      "description": "Practical functional shirt for hiking: the Aegility Longsleeve Men is quick drying and breathable. It impresses with a Polygiene antimicrobial treatment to reduce unpleasant odors as well as a lightweight, comfortable stretch material. The melange effect gives this functional shirt a trendy look.",
-      "categories":[
-        "Ordinary Frames"
-      ],
-      "price": 110,
-      "thumbnail": "/img/frames/ordinary_frames/sa.avif",
-      "images": [
-        "/img/frames/ordinary_frames/sample.avif"
-        
-      ],
-      "cover_image":[
-        "/img/frames/ordinary_frames/sa.avif",
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sample.avif",
-        "/img/frames/ordinary_frames/sample.avif"
-      ]
-    }
+  {
+    "title": "G1",
+    "price": "####",
+    "thumbnail": "/img/gifts/G1.jpg"
+  },
+  {
+    "title": "G2",
+    "price": "####",
+    "thumbnail": "/img/gifts/G2.jpg"
+  },
+  {
+    "title": "G3",
+    "price": "####",
+    "thumbnail": "/img/gifts/G3.jpg"
+  },
+  {
+    "title": "G4",
+    "price": "####",
+    "thumbnail": "/img/gifts/G4.jpg"
+  },
+  {
+    "title": "G5",
+    "price": "####",
+    "thumbnail": "/img/gifts/G5.jpg"
+  }
   ]
