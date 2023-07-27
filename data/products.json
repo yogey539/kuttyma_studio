@@ -38,5 +38,10 @@
     "title": "F8",
     "price": "####",
     "thumbnail": "/img/frames/F8.jpg"
+  },
+  {
+    "title": "F9",
+    "price": "####",
+    "thumbnail": "/img/frames/F9.jpeg"
   }
 ]
